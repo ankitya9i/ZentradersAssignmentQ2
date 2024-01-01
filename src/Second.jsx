@@ -6,7 +6,7 @@ const Second = () => {
 
   const [file, setfile] = useState('');
   const [fileContent, setFileContent] = useState({});
-  const [fileType, setFileType] = useState(''); // Default to text file
+  const [fileType, setFileType] = useState('json'); // Default to text file
   const [encoding, setEncoding] = useState('utf-8'); // Default to UTF-8
   const [delimiter, setDelimiter] = useState(',');
   const [hasHeader, setHasHeader] = useState(true);
